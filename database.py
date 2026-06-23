@@ -84,3 +84,13 @@ print(d1)
 #stap 4
 nested = {'server': {'host': 'localhost', 'port': 8080}}
 print(nested["server"]["port"])
+
+#stap 5
+
+
+##Part 3 — Self Learn
+
+
+#stap 3
+#Python lists are unhashable because any changes to their content
+#  would change their hash value - example []
