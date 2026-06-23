@@ -77,3 +77,7 @@ z = b.issubset(a)
 print(z)
 # print(a.issubset(b))
 # print(a. issuperset(b))
+
+#stap 2
+pairs = [(1, 'a'), (2, 'b'), (3, 'c')]
+print(pairs[1])
