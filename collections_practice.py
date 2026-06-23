@@ -13,3 +13,6 @@ print(tags)
 #tags.remove('bash')
 tags.discard("bash")
 print(tags)
+tags.discard("bash")
+print(tags)
+
