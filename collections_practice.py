@@ -52,3 +52,8 @@ g = rgb[1]
 print(g)
 b = rgb[2]
 print(b)
+
+#stap 9
+coords = (1, 2, 3, 2, 1)
+print(coords.count(2))
+print(coords.index(3))
