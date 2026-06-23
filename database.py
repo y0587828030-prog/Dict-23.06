@@ -38,4 +38,7 @@ print(items)
 if "score" in agent:
  print("yes")
 
- 
+ #stap 9
+scores = {'Alpha': 80, 'Bravo': 95, 'Charlie': 70}
+print(scores)
+print(max(scores.values()))
