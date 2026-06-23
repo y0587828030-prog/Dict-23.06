@@ -41,4 +41,12 @@ if "score" in agent:
  #stap 9
 scores = {'Alpha': 80, 'Bravo': 95, 'Charlie': 70}
 print(scores)
-print(max(scores.values()))
+print(max(scores.values())) 
+
+#stap 10
+copy_agent = agent.copy()
+print(copy_agent)
+
+copy_agent["name"]= "yehoshua"
+print(copy_agent)
+print(agent)
