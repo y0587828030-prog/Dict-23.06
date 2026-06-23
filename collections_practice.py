@@ -41,3 +41,14 @@ print(point[:1:])
 print(point[1:])
 
 #stap 7
+#point[0]=99
+#print(point)#TypeError: 'tuple' object does not support item assignment
+
+#stap8
+rgb = (255, 128, 0)
+r = rgb[0]
+print(r)
+g = rgb[1]
+print(g)
+b = rgb[2]
+print(b)
