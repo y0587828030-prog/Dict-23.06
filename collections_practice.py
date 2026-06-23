@@ -24,3 +24,9 @@ print(together)
 
 shared = a.intersection(b)
 print(shared)
+
+difference = a.difference(b)
+print(difference)
+difference = b.difference(a)
+print(difference)
+
