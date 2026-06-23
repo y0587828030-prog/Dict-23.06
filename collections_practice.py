@@ -89,5 +89,11 @@ print(list2)
 list3=list(list2)
 print(list3)
 
+#stap 4
+set_1={1,2,3,4,5,7,8,}
+set_2={7,8,8,9}
+print(set_1.symmetric_difference(set_2))
+
+
 
 
