@@ -81,3 +81,6 @@ print(d1)
 # d1.pop("1")
 # print(d1)
 
+#stap 4
+nested = {'server': {'host': 'localhost', 'port': 8080}}
+print(nested["server"]["port"])
