@@ -9,8 +9,12 @@ print(agent["name"])
 
 print(agent.get("level"))
 print(agent.get("0"))
+# print(agent["0"])
 
 #stap4
-agent["score"]="95"
+agent["score"]= 95
 print(agent)
 
+#stap 5
+agent["level"]=5
+print(agent)
