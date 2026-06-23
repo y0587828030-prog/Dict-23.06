@@ -23,3 +23,13 @@ print(agent)
 #stap 6
 del(agent["active"])
 print(agent)
+
+#stap 7
+keys = agent.keys()
+print(keys)
+
+values = agent.values()
+print(values)
+
+items = agent.items()
+print(items)
