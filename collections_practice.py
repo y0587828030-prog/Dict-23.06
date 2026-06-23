@@ -81,3 +81,13 @@ print(z)
 #stap 2
 pairs = [(1, 'a'), (2, 'b'), (3, 'c')]
 print(pairs[1])
+
+#stap 3
+list1=[1,2,3,4,3,1,1,2,4,3,4,]
+list2=set(list1)
+print(list2)
+list3=list(list2)
+print(list3)
+
+
+
