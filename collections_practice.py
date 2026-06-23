@@ -16,3 +16,11 @@ print(tags)
 tags.discard("bash")
 print(tags)
 
+#stap 4
+a = {1, 2, 3}
+b = {3, 4, 5}
+together = a.union(b)
+print(together)
+
+shared = a.intersection(b)
+print(shared)
