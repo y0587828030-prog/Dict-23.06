@@ -37,5 +37,7 @@ print(True) if "git" in tags else print(False)
 #stap 6
 point = (10, 20)
 print(point)
+print(point[:1:])
+print(point[1:])
 
-#stap 8
+#stap 7
