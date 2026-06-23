@@ -74,3 +74,10 @@ d1 = {'a': 1, 'b': 2}
 d2 = {'b': 3, 'c': 4}
 d3 = d1 | d2 
 print(d3)
+
+#stap 3
+d1.pop("a")
+print(d1)
+# d1.pop("1")
+# print(d1)
+
