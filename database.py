@@ -33,3 +33,9 @@ print(values)
 
 items = agent.items()
 print(items)
+
+#stap 8
+if "score" in agent:
+ print("yes")
+
+ 
