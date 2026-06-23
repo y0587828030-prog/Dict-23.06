@@ -57,3 +57,12 @@ print(b)
 coords = (1, 2, 3, 2, 1)
 print(coords.count(2))
 print(coords.index(3))
+
+#stap 10
+list=(1,2,3)
+set=(1,2,3)
+tuple=(1,2,3)
+print(list)
+print(set)
+print(tuple)
+#Only in the list can the values ​​be changed.
