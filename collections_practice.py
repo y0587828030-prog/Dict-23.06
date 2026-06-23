@@ -30,3 +30,11 @@ print(difference)
 difference = b.difference(a)
 print(difference)
 
+#stap 5
+
+
+
+
+#stap 7
+point = (10, 20)
+print(point)
