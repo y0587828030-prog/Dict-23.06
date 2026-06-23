@@ -1,61 +1,60 @@
 
 ##Part 1 — Basics: dict CRUD, keys, values, items
 #stap 1
-# agent = {'name': 'Alpha', 'level': 3, 'active': True}
-# print(agent)
-# #stap 2
-# print(agent["name"])
+agent = {'name': 'Alpha', 'level': 3, 'active': True}
+print(agent)
+
+#stap 2
+print(agent["name"])
 
 # #stap 3
-# # level = agent.get("level")
-# # print(level)
+level = agent.get("level")
+print(level)
 
-# print(agent.get("level"))
-# print(agent.get("0"))
-# # print(agent["0"])
+print(agent.get("level"))
+print(agent.get("0"))
+# print(agent["0"])
 
 # #stap4
-# agent["score"]= 95
-# print(agent)
+agent["score"]= 95
+print(agent)
 
 # #stap 5
-# agent["level"]=5
-# print(agent)
+agent["level"]=5
+print(agent)
 
-# #stap 6
-# del(agent["active"])
-# print(agent)
+#stap 6
+del(agent["active"])
+print(agent)
 
-# #stap 7
-# keys = agent.keys()
-# print(keys)
+#stap 7
+keys = agent.keys()
+print(keys)
 
-# values = agent.values()
-# print(values)
+values = agent.values()
+print(values)
 
-# items = agent.items()
-# print(items)
+items = agent.items()
+print(items)
 
-# #stap 8
-# if "score" in agent:
-#  print("True")
+#stap 8
+if "score" in agent:
+ print("True")
 
-#  #stap 9
-# scores = {'Alpha': 80, 'Bravo': 95, 'Charlie': 70}
-# print(scores)
-# A_winning_agent = max(scores, key=scores.get)
-# print(A_winning_agent)
-# #print(max(scores.values()))
+#stap 9
+scores = {'Alpha': 80, 'Bravo': 95, 'Charlie': 70}
+print(scores)
+A_winning_agent = max(scores, key=scores.get)
+print(A_winning_agent)
+#print(max(scores.values()))
 
+#stap 10
+copy_agent = agent.copy()
+print(copy_agent)
 
-
-# #stap 10
-# copy_agent = agent.copy()
-# print(copy_agent)
-
-# copy_agent["name"]= "yehoshua"
-# print(copy_agent)
-# print(agent)
+copy_agent["name"]= "yehoshua"
+print(copy_agent)
+print(agent)
 
 # OPart 2 — Optional Advanced Basics
 
@@ -94,4 +93,5 @@ print(nested["server"]["port"])
 #2 hashadle must to be once of the premitve values how can't umpposible to change (like list) for don't hit the memory index.
 #3 . the difference is that whem the comuter cearch in a list the program runs on the list until it find the value.
 # and if the list is big it take time and power. but cearching in dict is difference, the computer dosn't run on all the dict but jump directly to the value by the index memory.
+
 

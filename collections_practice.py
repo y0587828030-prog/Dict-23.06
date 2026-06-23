@@ -94,6 +94,14 @@ set_1={1,2,3,4,5,7,8,}
 set_2={7,8,8,9}
 print(set_1.symmetric_difference(set_2))
 
+#stap 5
+#Because a list is mutable and a tuple is immutable
+set_1={7,8,8,9}
+tuple_1=(1,2,3)
+list_1=[4,5,6]
+print(list_1.append(tuple_1))
+print(list_1)
+
 
 
 
