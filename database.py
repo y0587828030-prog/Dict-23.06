@@ -1,6 +1,6 @@
 
-# ##Part 1 — Basics: dict CRUD, keys, values, items
-# #stap 1
+##Part 1 — Basics: dict CRUD, keys, values, items
+#stap 1
 # agent = {'name': 'Alpha', 'level': 3, 'active': True}
 # print(agent)
 # #stap 2
@@ -38,12 +38,16 @@
 
 # #stap 8
 # if "score" in agent:
-#  print("yes")
+#  print("True")
 
 #  #stap 9
 # scores = {'Alpha': 80, 'Bravo': 95, 'Charlie': 70}
 # print(scores)
-# print(max(scores.values())) 
+# A_winning_agent = max(scores, key=scores.get)
+# print(A_winning_agent)
+# #print(max(scores.values()))
+
+
 
 # #stap 10
 # copy_agent = agent.copy()
@@ -53,16 +57,20 @@
 # print(copy_agent)
 # print(agent)
 
-## OPart 2 — Optional Advanced Basics
+# OPart 2 — Optional Advanced Basics
 
 #stap 1
 config ={}
 print(config)
 # new_key = config.setdefault("timeout" , 30)
 # print(new_key)
-
 config.setdefault("timeout" , 30)
 print(config)
 config.setdefault("timeout" , 40)
 print(config)
 
+#stap 2
+d1 = {'a': 1, 'b': 2}
+d2 = {'b': 3, 'c': 4}
+d3 = d1 | d2 
+print(d3)
