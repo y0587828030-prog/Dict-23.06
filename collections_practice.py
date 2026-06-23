@@ -32,9 +32,10 @@ print(difference)
 
 #stap 5
 
+print(True) if "git" in tags else print(False)
 
-
-
-#stap 7
+#stap 6
 point = (10, 20)
 print(point)
+
+#stap 8
