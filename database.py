@@ -89,8 +89,11 @@ print(nested["server"]["port"])
 
 
 ##Part 3 — Self Learn
-
-
+#1  a hash map is a collection of key value pairs.
+#  python implements this by mapping each key to a specific numerical index in memory
+#2 hashadle must to be once of the premitve values how can't umpposible to change (like list) for don't hit the memory index.
+#3 . the difference is that whem the comuter cearch in a list the program runs on the list until it find the value.
+# and if the list is big it take time and power. but cearching in dict is difference, the computer dosn't run on all the dict but jump directly to the value by the index memory.
 
 #stap 3
 #Python lists are unhashable because any changes to their content
