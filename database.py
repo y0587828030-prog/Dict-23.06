@@ -95,6 +95,3 @@ print(nested["server"]["port"])
 #3 . the difference is that whem the comuter cearch in a list the program runs on the list until it find the value.
 # and if the list is big it take time and power. but cearching in dict is difference, the computer dosn't run on all the dict but jump directly to the value by the index memory.
 
-#stap 3
-#Python lists are unhashable because any changes to their content
-#  would change their hash value - example []
